@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Bingo Game</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Updated Font Awesome CDN for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMeD/J2Wzq3w6HRaOr91Wxd+2Jy1Lqg6Pj5iG8Z" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <h1>Tech Bingo</h1>
         <p>1. Find different people who match each description on the card. 2. Write their names in the corresponding boxes. 3. Fill out a row, column, or diagonal to win "Bingo".</p>
-        <button id="theme-toggle" onclick="toggleDarkMode()">
-            <i id="theme-icon" class="fas fa-moon"></i> Toggle View Mode
-        </button>
+        <label class="toggle">
+            <input type="checkbox" id="theme-toggle" onclick="toggleDarkMode()">
+            <span class="slider">
+                <i class="fas fa-sun sun-icon"></i>
+                <i class="fas fa-moon moon-icon"></i>
+            </span>
+        </label>
     </header>
 
     <section class="bingo-board">
