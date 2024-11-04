@@ -17,7 +17,7 @@ Tech Networking Bingo is a single-page, responsive web application where partici
 
 ## Demo
 
-You can try the app [here](https://main.d1kafi0fsh7yp4.amplifyapp.com/) (replace with a demo link if available).
+You can try the app [here](https://bingo.leeweijuin.com) (replace with a demo link if available).
 
 ![Screenshot](demo.png)
 
