@@ -21,12 +21,3 @@ You can try the app [here](https://bingo.leeweijuin.com) (replace with a demo li
 
 ![Screenshot](demo.png)
 
----
-
-## Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/weijuinlee/tech-networking-bingo.git
-   cd tech-networking-bingo
